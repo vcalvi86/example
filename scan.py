@@ -26,4 +26,5 @@ assert scan([-1, -2, -3]) == -3
 assert scan([1000000]) == 1000000
 assert scan([1, 2, 3, 4, 1]) == 0
 assert scan([1, 2, 3, 4, 1, 2]) == 2
+assert scan([1, 3, 5, 42, 1])
 #assert scan([1, 2, 3, 3, 4, 1, 2, 3]) == 5
